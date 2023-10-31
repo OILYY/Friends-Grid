@@ -1,0 +1,112 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Text                     ║ General                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.peopleColumn-1wMU14 .userInfo-2WpsYG {
+  transform: scale(1.0);
+  width: 100%;
+  height: 100%;
+  margin-bottom: var(--FG-cards-margin-bottom);
+}
+
+.peopleColumn-1wMU14#pending-tab .userInfo-2WpsYG {
+  flex: auto 0 0;
+}
+
+// Text
+.peopleColumn-1wMU14 .text-3j8t_e {
+  position: absolute;
+  width: 80% !important;
+  left: 0;
+  bottom: 0;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.peopleColumn-1wMU14#pending-tab .text-3j8t_e {
+  margin-bottom: var(--FG-cards-margin-bottom);
+  position: absolute;
+  bottom: 0%;
+}
+
+.peopleColumn-1wMU14 .text-3j8t_e {
+  margin-left: var(--FG-text-margin-left);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Text                     ║ Username                                                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Username (Normal)
+.peopleColumn-1wMU14 .username-Qpc78p {
+  color: var(--FG-cards-username-normal);
+  opacity: var(--FG-cards-username-opacity-normal);
+  transition: var(--FG-transition);
+  }
+  
+// Username (Hover)
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover .username-Qpc78p {
+  color: var(--FG-cards-username-hover);
+  opacity: var(--FG-cards-username-opacity-hover);
+  transition: var(--FG-transition);
+}
+
+// Username (Active)
+.peopleListItem-u6dGxF.active-2UF8Zh .username-Qpc78p {
+  opacity: var(--FG-cards-username-opacity-active) !important;
+  transition: var(--FG-transition);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Text                     ║ Discriminator                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Discriminator (Normal)
+.peopleColumn-1wMU14 .discriminator-WV5K5s {
+  color: var(--FG-cards-discriminator-normal);
+  opacity: var(--FG-cards-discriminator-opacity-normal);
+  visibility: visible;
+  margin-left: 2px;
+  font-size: 20px;
+  line-height: 22px;
+  transition: var(--FG-transition);
+}
+
+// Discriminator (Hover)
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover .discriminator-WV5K5s {
+  color: var(--FG-cards-discriminator-hover);
+  opacity: var(--FG-cards-discriminator-opacity-hover);
+  transition: var(--FG-transition);
+}
+
+// Discriminator (Active)
+.peopleListItem-u6dGxF.active-2UF8Zh .discriminator-WV5K5s {
+  opacity: var(--FG-cards-discriminator-opacity-active) !important;
+  transition: var(--FG-transition);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Text                     ║ Status                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Status (Normal)
+.peopleColumn-1wMU14 .subtext-xfubwR {
+  color: var(--FG-cards-status-normal);
+  opacity: var(--FG-cards-status-opacity-normal);
+  transition: var(--FG-transition);
+}
+
+// Status (Hover)
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover .subtext-xfubwR {
+  color: var(--FG-cards-status-hover);
+  opacity: var(--FG-cards-status-opacity-hover);
+  transition: var(--FG-transition);
+}
+
+// Status (Active)
+.peopleListItem-u6dGxF.active-2UF8Zh .subtext-xfubwR {
+  opacity: var(--FG-cards-status-opacity-active) !important;
+  transition: var(--FG-transition);
+}

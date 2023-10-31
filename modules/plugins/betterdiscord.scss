@@ -1,0 +1,29 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ BetterDiscord            ║ Better Friend List (Plugin)                                                             ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.peopleColumn-1wMU14 .mutualGuilds-s7F2aa {
+  flex: 0 0 auto;
+  position: absolute !important;
+  margin-top: calc(70px + var(--FG-cards-banner-height));
+  margin-right: 10px;
+}
+
+// Guild (Normal)
+.peopleColumn-1wMU14 .mutualGuilds-s7F2aa {
+  opacity: var(--FG-mutal-guilds-normal);
+  transition: var(--transition);
+}
+
+// Guild (Hover)
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover .mutualGuilds-s7F2aa {
+  opacity: var(--FG-mutal-guilds-hover);
+  transition: var(--transition);
+}
+
+// Guild (Active)
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF.active-2UF8Zh .mutualGuilds-s7F2aa {
+  opacity: var(--FG-mutal-guilds-active);
+  transition: var(--transition);
+}

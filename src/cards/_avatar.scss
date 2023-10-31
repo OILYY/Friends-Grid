@@ -1,0 +1,57 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Avatar                   ║ General                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.peopleColumn-1wMU14 .avatar-2MSPKk.wrapper-1VLyxH {
+  transform: scale(1.8);
+  margin-left: calc( 16px + var(--FG-avatar-margin-left));
+  margin-top: calc(var(--FG-avatar-margin-top) + var(--FG-cards-banner-height));
+}
+
+// Frame
+.peopleColumn-1wMU14 .avatar-2MSPKk::before {
+  content: "";
+  position: fixed;
+  width: 116%;
+  height: 116%;
+  left: -8%;
+  top: -8%;
+}
+
+// Frame (Normal)
+.peopleColumn-1wMU14 .avatar-2MSPKk::before {
+  background: var(--FG-cards-background-normal);
+  border-radius: var(--rs-avatar-shape, var(--FG-avatar-shape));
+  transition: var(--FG-transition);
+}
+
+// Frame (Hover)
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover .avatar-2MSPKk::before {
+  background: var(--FG-cards-background-hover);
+  transition: var(--FG-transition);
+}
+
+// Frame (Active)
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF.active-2UF8Zh .avatar-2MSPKk::before {
+  opacity: var(--FG-cards-avatar-opacity-active) !important;
+  transition: var(--FG-transition);
+}
+
+// Avatar (Normal)
+.peopleColumn-1wMU14 .avatar-2MSPKk.wrapper-1VLyxH {
+  opacity: var(--FG-cards-avatar-opacity-normal);
+  transition: var(--FG-transition);
+}
+
+// Avatar (Hover)
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover .avatar-2MSPKk.wrapper-1VLyxH {
+  opacity: var(--FG-cards-avatar-opacity-hover);
+  transition: var(--FG-transition);
+}
+
+// Avatar (Active)
+.peopleListItem-u6dGxF.active-2UF8Zh .avatar-2MSPKk.wrapper-1VLyxH {
+  opacity: var(--FG-cards-avatar-opacity-active) !important;
+  transition: var(--FG-transition);
+}

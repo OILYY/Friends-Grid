@@ -1,0 +1,33 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Banner                   ║ General                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.peopleColumn-1wMU14 .userInfo-2WpsYG::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: calc(60px + var(--FG-cards-banner-height));
+  min-height: 60px;
+  background-image: var(--user-banner);
+  background-position: center;
+  background-color: var(--user-accent-color);
+  background-size: cover;
+}
+
+// Banner (Normal)
+.peopleColumn-1wMU14 .userInfo-2WpsYG::before {
+  opacity: var(--FG-cards-banner-opacity-normal);
+  transition: var(--FG-transition);
+}
+
+// Banner (Hover)
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover .userInfo-2WpsYG::before {
+  opacity: var(--FG-cards-banner-opacity-hover);
+  transition: var(--FG-transition);
+}
+
+// Banner (Active)
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF.active-2UF8Zh .userInfo-2WpsYG::before {
+  opacity: var(--FG-cards-banner-opacity-active);
+  transition: var(--FG-transition);
+}

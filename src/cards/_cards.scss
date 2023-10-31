@@ -1,0 +1,36 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Text                     ║ General                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.peopleColumn-1wMU14 .listItemContents-2NFd61,
+.peopleColumn-1wMU14 .listItemContents-f4Uz5J,
+.peopleColumn-1wMU14 .listItemContents-2n2Uy9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+// Card (Normal)
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF {
+  background: var(--FG-cards-background-normal);
+  border: var(--FG-cards-border-width) solid var(--FG-cards-border-color-normal);
+  border-radius: var(--FG-cards-radius) !important;
+  height: 100% !important;
+  margin: 0px;
+  padding: 0px;
+  min-height: calc(var(--FG-cards-height) + var(--FG-cards-banner-height)) !important;
+}
+
+// Card (Hover)
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover{
+  background: var(--FG-cards-background-hover);
+  border: var(--FG-cards-border-width) solid var(--FG-cards-border-color-hover);
+  transition: var(--FG-transition);
+}
+
+// Card (Active)
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF.active-2UF8Zh {
+  background: var(--FG-cards-background-active) !important;
+  transition: var(--FG-transition);
+}
